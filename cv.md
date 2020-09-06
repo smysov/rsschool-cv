@@ -7,11 +7,12 @@
 
 ## Summary
 
-I want to work in sphere IT long time.
-At the moment I haven't got work.
-I always learn - In this year I had completed HTML & CSS & JS basic course on [LOFTSCHOOL](https://loftschool.com/)!
-There are only three works in my portfolio so far, but I am working for it, that works were more.
-My goal is find first work and get experience.
+I have wanted to wotk in IT shpere for a long time.  
+At the moment I'm not working.  
+I want to imporove my skills and knowledge and I do my best for it!  
+This year I have finished HTML & CSS & JS basic course on [LOFTSCHOOL](https://loftschool.com/)!  
+There are only three works in my portfolio at the moment, but I am working for it, to inclease its number.  
+My goal is to find my first work and get experience.
 
 **Self-education:**
 
@@ -46,5 +47,5 @@ function makeString(s) {
 
 ## English level
 
-Elementary or Pre-Intermediate, but I'm not sure.
+At the moment my level of English is Elementary or Pre-Intermediate, but I'm not sure.
 I exactly know I speak badly.
