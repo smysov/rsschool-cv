@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sergey Mysov CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      line-height: 120%;
+      background-color: rgba(158, 153, 112, .1);
+    }
+
+    h1,
+    h2,
+    h3,
+    a {
+      padding: 0;
+      margin: 0;
+    }
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .container {
+      max-width: 940px;
+      width: 90%;
+      margin: 0 auto;
+      height: 100%
+    }
+
+    .header {
+      margin-bottom: 10%;
+    }
+
+    .inner {
+      display: flex;
+      padding-top: 10%;
+      align-items: center;
+    }
+
+    .inner__photo {
+      border-radius: 50%;
+      width: 320px;
+      height: auto;
+      overflow: hidden;
+      margin-right: 10%;
+    }
+
+    @media (max-width: 600px) {
+      .inner {
+        flex-direction: column;
+      }
+
+      .inner__photo {
+        margin-bottom: 5%;
+        margin-right: 0;
+      }
+
+      .code {
+        font-size: 14px;
+      }
+    }
+
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      display: inline-block;
+      color: rgba(143, 36, 61, 1);
+      transition: color .3s;
+    }
+
+    a:hover {
+      color: tomato;
+    }
+
+    p {
+      line-height: 2em;
+      font-size: 1em;
+    }
+
+    section {
+      margin-bottom: 5%;
+    }
+
+    code {
+      text-align-last: left;
+      background-color: #fff;
+    }
+
+    .skills__title,
+    .summary__title,
+    .code__title,
+    .language__title {
+      line-height: 1.1em;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: rgba(110, 88, 3, 1);
+    }
+
+    .title__name {
+      line-height: 1.1em;
+      font-size: 1em;
+      text-transform: uppercase;
+    }
+
+    .title__link {
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 1em;
+      font-weight: 400;
+      cursor: pointer;
+      margin-bottom: 5%;
+    }
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .summary {
+      text-align: left;
+    }
+
+    .skills {
+      text-align-last: left;
+    }
+
+    .function--color {
+      color: violet;
+    }
+
+    .variable--color {
+      color: green;
+    }
+
+    .cycle--color {
+      color: blue;
+    }
+
+    .condition--color {
+      color: cornflowerblue;
+    }
+
+    .return--color {
+      color: red;
+    }
+  </style>
+
+  <div class="wrapper">
+    <div class="container">
+      <header class="header">
+        <div class="inner">
+          <div class="inner__photo">
+            <img src="CV.JPG" alt="Моя фотография">
+          </div>
+          <div class="title">
+            <h1 class="title__name">Mysov Sergey</h1>
+            <p class="title__contacts">Located in Samara, Russia</p>
+            <a class="title__link" href="tel:89276919111">+7(927) 691-91-11</a>
+            <a class="title__link" href="mailto:s.mysov@list.ru">s.mysov@list.ru</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+
+        <section class="summary">
+          <h2 class="summary__title">SUMMARY</h2>
+          <p>I have wanted to wotk in IT shpere for a long time.<br>
+            At the moment I'm not working.<br>
+            I want to imporove my skills and knowledge and I do my best for it!<br>
+            This year I have finished HTML & CSS & JS basic course on
+            <a href="https://loftschool.com/">LOFTSCHOOL!</a><br>
+            There are only three works in my portfolio at the moment,<br>
+            but I am working for it, to inclease its number.<br> 
+            My goal is to find my first work and get experience.</p>
+
+          <h3 class="summary__subtitle">
+            Self-education:
+          </h3>
+          <ul class="summary__list">
+            <li class="summary__item">
+              <b>Completed:</b> <a href="https://htmlacademy.ru/intensive/htmlcss">
+                HTML Academy: HTML & CSS basics
+              </a>
+            </li>
+            <li class="summary__item">
+              <b>Completed:</b> <a
+                href="https://loftschool.com/professions/frontend-developer">
+                Loftschool: Frontend developer
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="skills">
+          <h2 class="skills__title">Skills</h2>
+
+          <ol class="skills__list">
+            <li class="skills__item">Photoshop</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">Visual Studio Code</li>
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">JavaScript(basic)</li>
+            <li class="skills__item">SASS</li>
+            <li class="skills__item">GULP</li>
+          </ol>
+        </section>
+
+        <section class="code">
+          <h2 class="code__title">Code examples (LATEST)</h2>
+          <code>
+            <pre>
+          <span class="function function--color">function</span> makeString(s) {
+          <span class="variable variable--color">let</span> firstCharacter = "";
+          
+          <span class="cycle cycle--color">for</span> (let i = 0; i < s.length; i++) {
+           <span class="condition condition--color">if</span> (i === 0 || s[i - 1] === " " ) {
+                firstCharacter += s[i]; 
+              } 
+            }
+            <span class="return return--color">return</span> firstCharacter; 
+          }
+        </pre>
+        </code>
+        </section>
+
+        <section class="language">
+          <h2 class="language__title">English level</h2>
+          <p>At the moment my level of English is Elementary or Pre-Intermediate, but I'm not sure.
+          I exactly know I speak badly.
+          </p>
+        </section>
+
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
